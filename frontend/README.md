@@ -43,10 +43,15 @@ Because the logged-in Cloudflare user has more than one account, local
 export CLOUDFLARE_ACCOUNT_ID=<the account running vibemotion-studio>
 ```
 
-### Attaching perpetual.video
+### Domains
 
-Once the domain is on the Cloudflare account, uncomment the `routes` block in
-`wrangler.jsonc` and redeploy. No code changes needed.
+Live at **https://perpetual.video** (and `www`), bound as Workers custom
+domains via the `routes` block in `wrangler.jsonc`. Cloudflare manages the DNS
+records and cert for both.
+
+`workers_dev` is deliberately left on: adding custom domain routes otherwise
+disables `perpetual-web.<subdomain>.workers.dev`, which is a useful fallback
+for checking a deploy independently of DNS.
 
 ## Waitlist
 

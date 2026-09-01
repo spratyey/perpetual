@@ -8,12 +8,13 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  // Keep the *.workers.dev URL alive alongside the custom domains as a fallback.
+  "workers_dev": true,
   "observability": {
     "enabled": true
-  }
-  // Once perpetual.video is added to this Cloudflare account, uncomment to bind it:
-  // "routes": [
-  //   { "pattern": "perpetual.video", "custom_domain": true },
-  //   { "pattern": "www.perpetual.video", "custom_domain": true }
-  // ]
+  },
+  "routes": [
+    { "pattern": "perpetual.video", "custom_domain": true },
+    { "pattern": "www.perpetual.video", "custom_domain": true }
+  ]
 }
