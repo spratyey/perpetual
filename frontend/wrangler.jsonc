@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "perpetual-web",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+  // Once perpetual.video is added to this Cloudflare account, uncomment to bind it:
+  // "routes": [
+  //   { "pattern": "perpetual.video", "custom_domain": true },
+  //   { "pattern": "www.perpetual.video", "custom_domain": true }
+  // ]
+}

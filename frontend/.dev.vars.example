@@ -1,0 +1,2 @@
+# Local-only environment variables for `pnpm preview` (wrangler dev).
+# Copy to .dev.vars and fill in. Never commit .dev.vars.
