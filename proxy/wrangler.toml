@@ -1,0 +1,9 @@
+name = "perpetual-proxy"
+main = "index.ts"
+compatibility_date = "2026-06-01"
+
+# Demo budget lives here: one counter for everyone, reset daily.
+kv_namespaces = [{ binding = "BUDGET", id = "9939b450bf414612932074f9baf479f8" }]
+
+[vars]
+ALLOWED_ORIGINS = "https://app.perpetual.video,https://perpetual-editor.pages.dev,http://localhost:3000"

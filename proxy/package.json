@@ -1,0 +1,14 @@
+{
+  "name": "perpetual-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lends a rate-limited Gemini key to visitors who have none, so the hosted app works on first load.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.127.1"
+  }
+}

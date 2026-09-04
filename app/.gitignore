@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+
+# API keys are entered in the UI at runtime; never commit one.
+# Nothing here is tracked except the example — see .env.example for the one
+# variable a build reads, and note what happens if it is missing.
+.env
+.env.*
+!.env.example
