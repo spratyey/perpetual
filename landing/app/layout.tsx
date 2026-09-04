@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 const siteUrl = "https://perpetual.video";
 const title = "perpetual.video — Video Editor Built for Humans & AI";
 const description =
-  "Edit visually or let AI compose via MCP — both work on the same project, in real time. The first video editor designed equally for humans and AI agents.";
+  "Edit it yourself or let an agent edit with you through WebMCP — both work on the same project, at the same time. Local-first: nothing is uploaded.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -64,9 +64,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  // Same mark as the editor, so the two tabs are recognisably one product.
   icons: {
-    icon: "/favicon.ico",
-    apple: "/logo_only.png",
+    icon: "/icon.svg",
+    apple: "/logo.png",
   },
 };
 
