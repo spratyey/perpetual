@@ -12,15 +12,15 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="px-4 pt-32 pb-12 sm:px-6 sm:pt-40">
+    <section className="px-4 pb-8 pt-28 sm:px-6 sm:pt-32">
       <div className="mx-auto max-w-3xl text-center">
-        <h1 className="mb-5 text-3xl font-bold leading-[1.1] tracking-tight sm:text-5xl md:text-6xl">
+        <h1 className="mb-4 text-3xl font-bold leading-[1.1] tracking-tight sm:text-4xl md:text-5xl">
           A video editor built equally
           <br />
           for humans and AI
         </h1>
 
-        <p className="mx-auto mb-8 max-w-xl text-base text-muted-foreground sm:text-lg">
+        <p className="mx-auto mb-7 max-w-xl text-base text-muted-foreground">
           Edit it yourself, or let an agent edit it with you through WebMCP — both work on the
           same project, at the same time. Everything stays in your browser.
         </p>

@@ -13,7 +13,7 @@ const VIDEO_ID = "bzTxLXt0RNo";
 
 export function DemoVideo() {
   return (
-    <section className="px-4 pb-24 sm:px-6">
+    <section className="px-4 pb-20 sm:px-6">
       <div className="mx-auto max-w-4xl">
         <div className="overflow-hidden rounded-2xl border border-border bg-black shadow-2xl">
           <iframe
